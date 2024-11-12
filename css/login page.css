@@ -1,0 +1,116 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.cover{
+    height: 550px;
+    width:30%;
+    /* background-color: yellowgreen; */
+    border: 1px solid yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+    width: 75%;
+    gap:20px;
+    /* padding-top: 30px;
+     */
+    
+}
+input{
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.363);
+}
+.butt{
+    padding: 9px;
+    background-color: yellowgreen;
+    color:white;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.or{
+    /* height: 50px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    /* background-color: yellow; */
+   
+}
+p{
+    margin:0px;
+}
+hr{
+    height: 4px;
+    width:200px;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:yellowgreen;
+}
+.icon img{
+    height: 30px;
+    width:30px;
+}
+.icon{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.head h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    /* font-size: 2rem; */
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup b{
+    color:yellowgreen;
+}
+.sign p{
+    color:yellowgreen;
+}
+/* b{
+    color:white
+} */
+a{
+    text-decoration-line:none;
+   
+}
+@media (max-width:970px){
+    .cover{
+        height:650px;
+        width:90%;
+    }
+}
+@media (min-width:500px){
+    .cover{
+        width:33%;
+    }
+}

@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 650px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.row{
+    height: 500px;
+}
+.co{
+    /* border: 1px solid black; */
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.co img{
+    height: 450px;
+    width:350px;
+    border-radius: 35px;
+}
+.coo{
+    /* background-color: green; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+h1{
+    margin: 0px;
+    /* font-size: 2.5vw; */
+    color:yellowgreen;
+}
+.favorites{
+    height: 60px;
+    /* width:11vw; */
+    width:150px;
+    border: 1px solid yellowgreen;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color:yellowgreen;
+}
+.favorites:hover{
+    border: 1px solid white;
+    background-color: yellowgreen;
+    color:white; 
+   
+}
+.cart{
+    height: 60px;
+    /* width:11vw; */
+    width:150px;
+    border: 1px solid yellowgreen;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color:yellowgreen;
+}
+.cart:hover{
+    border: 1px solid white;
+    background-color: yellowgreen;
+    color:white; 
+   
+}
+.pay{
+    height: 60px;
+    /* width:15vw; */
+    width:200px;
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    color:yellowgreen;
+    background-color: white;
+   
+}
+.pay:hover{
+    border: 1px solid white;
+    background-color: yellowgreen;
+    color:white;
+}
+.butts{
+    display: flex;
+    gap:15px;
+}
+p{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+/* .fb{
+    font-size: 1vw;
+}
+b{
+    font-size: 1.4vw;
+ 
+} */
+.icon2{
+    font-variation-settings:'FILL' 1,'wght' 400,'GRAD' 0,'opsz'0;
+    color:white
+}
+.butts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub{
+    padding: 10px; 
+    color:white;
+    border-radius: 7px;
+    background-color: yellowgreen;
+    border: .5px solid yellowgreen;
+    width: 120px
+}
+
